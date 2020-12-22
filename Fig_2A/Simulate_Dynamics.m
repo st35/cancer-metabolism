@@ -39,7 +39,7 @@ map = brewermap(3, 'Dark2');
 % plot(P1, F0, 'o', 'linewidth', 2, 'color', map(3, :));
 % xlim([10^-3 10^1]);
 % xticks([10^-3 10^-2 10^-1 10^0 10^1]);
-% set(gca, 'FontSize', 16, 'XScale', 'log', 'Box', 'on');
+% set(gca, 'FontSize', 24, 'XScale', 'log', 'Box', 'on');
 % ylabel('Phospholipids syn. flux');
 % xlabel('Factor change in rate of ATP use');
 % legend({'High LDH, low PDH activity', 'High LDH, high PDH activity', 'Low LDH, high PDH activity'})
